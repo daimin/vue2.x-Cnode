@@ -1,7 +1,7 @@
 <template>
   <div class="page login">
     <div class="login-item">
-      <img class="login-item-img" src="https://o4j806krb.qnssl.com/public/images/cnodejs_light.svg">
+      <img class="login-item-img" src="https://static2.cnodejs.org/public/images/cnodejs_light.svg">
       <div class="login-item-section">
         <input placeholder="请输入Token" class="login-item-input" type="text" v-model="accesstoken" />
       </div>

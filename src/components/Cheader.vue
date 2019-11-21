@@ -4,7 +4,7 @@
             <header class="head-logo clearfix">
                 <i class="head-logo-menu iconfont icon-fenlei1" v-if="icon" @click="showMenuSlide"></i>
                 <i class="head-logo-back iconfont icon-fanhui" v-if="!icon" @click="goHistory"></i>
-                <img src="https://o4j806krb.qnssl.com/public/images/cnodejs_light.svg" class="logo-img">
+                <img src="https://static2.cnodejs.org/public/images/cnodejs_light.svg" class="logo-img">
             </header>
         </div>
         <menu-slide :show="leftNavStatus" @hideMenuSlide="hideMenuSlide"></menu-slide>
